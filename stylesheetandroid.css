@@ -1,0 +1,117 @@
+div {
+	margin: 0;
+	padding: 0;
+	background: #A4CA39;
+	bottom: -150px;
+	position: relative;
+}
+
+.android{
+	margin: 100px auto;
+	padding: 0;
+	height: 404px;
+	width: 334;
+}
+
+.kbca {
+	width: 220px;
+	height: 100px;
+	border-radius: 110px 110px 0px 0px;
+	margin: 0 auto;
+}
+
+
+.olhoesquerdo, .olhodireito{
+	background: #fff;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	position: absolute;
+	margin: 0 auto;
+	top: 43px;
+}
+
+.olhoesquerdo {
+	left: 50px;
+	position: absolute;
+	margin: 0 auto;
+}
+
+.olhodireito {
+	position: absolute;
+	margin: 0 auto;
+	right: 50px;
+}
+
+.antenaesquerda, .antenadireita {
+	width: 6px;
+	height: 50px;
+	position: absolute;
+	top: -34px;
+	border-radius: 3px;
+}
+
+.antenaesquerda {
+	left: 50px;
+	transform: rotate(-30deg);
+}
+
+.antenadireita {
+	right: 50px;
+	transform: rotate(30deg);
+}
+
+.corpo {
+	width: 220px;
+	height: 184px;
+	border-radius: 0 0 25px 25px;
+	margin: 8 auto;
+
+}
+
+.bracodireito, .bracoesquerdo, .pernaesquerda, .pernadireita{
+	width: 50px;
+	position: absolute;
+
+}
+
+.bracodireito, .bracoesquerdo{
+	height: 150px;
+	top: 0px;
+
+}
+
+.bracodireito {
+	left: -58px;
+	border-radius: 25px 25px 25px 25px;
+}
+.bracoesquerdo{
+	right: -58px;
+	border-radius: 25px 25px 25px 25px;
+}
+.pernadireita{
+	right: 35px;
+	border-radius: 0 0 25px 25px;
+}
+.pernaesquerda {
+	left: 35px;
+	border-radius: 0 0 25px 25px;
+}
+
+.pernaesquerda, .pernadireita{
+	height: 80px;
+	top: 180px;
+
+}
+
+.kbca:hover{
+	transform: rotate(-6deg) translate(-4px, -8px)
+}
+
+.bracodireito:hover{
+	transform: rotate(15deg) translate(-14px, 0);
+}
+
+.bracoesquerdo:hover{
+	transform: rotate(-30deg) translate(30px, 0);
+}
